@@ -1,4 +1,4 @@
-classdef HelperPlanPath
+gitclassdef HelperPlanPath
     %HELPERPLANPATH is used to plan the reference path of the vehicle.
     %
     % NOTE: The name of this class and it's functionality may change
