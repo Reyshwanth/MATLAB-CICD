@@ -10,7 +10,7 @@ rrApp=roadrunner(rrProj, NoDisplay=true);
 
 openScenario(rrApp,"LeadCutIn3.rrscenario");
 
-%open_system("MILSILmultistop")
+open_system("MILSILmultistop")
 rrSim = rrApp.createSimulation
 
 hdMap = getMap(rrSim);
@@ -228,7 +228,7 @@ end
 for i=1:size(links,1)
     newedgeTable=cat(1,newedgeTable,[nodeindices(links(i,1),2),nodeindices(links(i,2),1)]);
 end
-goal=goals(1,:);
+
 %This section runs our planner on the nodes stored in goals
 % 
 % planner = plannerAStar(graph);
