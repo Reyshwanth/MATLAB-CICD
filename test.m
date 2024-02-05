@@ -1,4 +1,4 @@
-graphObj = navGraph(states,links);
+graphObj = navGraph(newnodeTable,newedgeTable);
 planner = plannerAStar(graphObj);
 pathOutput=zeros(1000,3);
 [pathOutput1,solutionInfo1] = plan(planner,start,goal);
