@@ -1,3 +1,4 @@
+load("plannerworkspace.mat");
 graphObj = navGraph(newnodeTable,newedgeTable);
 planner = plannerAStar(graphObj);
 pathOutput=zeros(1000,3);
